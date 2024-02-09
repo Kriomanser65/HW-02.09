@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+</head>
+<style>
+.contain1 
+{
+    display: flex;
+    flex-wrap: wrap;
+}      
+.box 
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: calc(17% - 17px);
+}    
+img 
+{
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+@media screen and (max-width: 1000px) 
+{
+.box 
+    {
+        width: calc(25% - 20px);
+    }
+}       
+@media screen and (max-width: 800px) 
+{
+.box 
+    {
+        width: calc(33.33% - 20px);
+    }
+}       
+</style>
+<body>
+    <center>
+        <h1>What do I have in my fridge?</h1>
+    </center>
+    <div class="contain1">
+    <div class="box">
+        <img src="./icons/Product List1/Food_C247-128.png" alt="Pepper.png">
+        <p>Pepper</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C240-128.png" alt="Apple.png">
+        <p>Apple</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C217-128.png" alt="Cheese.png">
+        <p>Cheese</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C245-128.png" alt="Corn.png">
+        <p>Corn</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C239-128.png" alt="Mashroom.png">
+        <p>Mashroom</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C238-128.png" alt="Garlic.png">
+        <p>Garlic</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C225-128.png" alt="Beef.png">
+        <p>Beef</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C205-128.png" alt="Fish.png">
+        <p>Fish</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C203-128.png" alt="Eggs.png">
+        <p>Eggs</p>
+    </div>
+    <div class="box">
+        <img src="./icons/Product List1/Food_C235-128.png" alt="Coriander.png">
+        <p>Coriander</p>
+    </div>
+    </div>
+</body>
+</html>
