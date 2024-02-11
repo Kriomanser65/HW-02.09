@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel</title>
+</head>
+<style>
+    .box2
+    {
+        background-color: #3a3a3a;
+        padding: 10px;
+        border-radius: 7px;
+        width: 13%;
+    }
+    .box1
+    {
+        background-color: #3a3a3a;
+        padding: 10px;
+        border-radius: 7px;
+        width: 91%;
+        margin: 1px;
+        font-family: sans-serif;
+        font-weight: bold;
+        transition: filter 0.3s;
+    }
+    .box1:hover 
+    {
+        filter: brightness(75%);
+    }
+    .box1 img 
+    {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .box1 p 
+    {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle;
+        color: white;
+    }
+</style>
+<body>
+<div class="box2">
+    <div class="box1">
+<img src="./icons/edit.png" alt="pencil.png" style="width: 50px; height: 50px;">
+<p>EDIT</p>
+    </div>
+    <div class="box1">
+<img src="./icons/favorites.png" alt="heart.png" style="width: 50px; height: 50px;">
+<p>FAVORITES</p>
+    </div>
+    <div class="box1">
+<img src="./icons/history.png" alt="clock.png" style="width: 50px; height: 50px;">
+<p>HISTORY</p>
+    </div>
+    <div class="box1">
+<img src="./icons/security.png" alt="shield.png" style="width: 50px; height: 50px;">
+<p>SECURITY</p>
+    </div>
+    <div class="box1">
+<img src="./icons/settings.png" alt="settings.png" style="width: 50px; height: 50px;">
+<p>SETTINGS</p>
+    </div>
+</div>
+</body>
+</html>
