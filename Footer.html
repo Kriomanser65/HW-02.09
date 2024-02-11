@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+</head>
+<style>
+.box1 
+{
+    background-color: #255fb9;
+    border-radius: 7px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+}
+.column1
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+.column2
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+} 
+.line 
+{
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+} 
+.text1, .text2 
+{
+    margin: 0;
+    padding: 5px 10px;
+}
+.text1:hover
+{
+    text-decoration: underline;
+}
+.text2:hover
+{
+    text-decoration: underline;
+}
+.text3 
+{
+    color: aliceblue;
+    font-size: small;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.img1 img 
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+.img1 img:hover 
+{
+    content: url("./icons/fb.png");
+}
+.img2 img 
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+.img2 img:hover 
+{
+    content: url("./icons/insta.png");
+}
+.img3 img 
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+.img3 img:hover 
+{
+    content: url("./icons/youtube.png");
+}
+</style>
+<body>
+<div class="box1">
+    <div class="column1">
+        <p class="text1">Home</p>
+        <p class="text1">About</p>
+        <p class="text1">Gallery</p>
+        <p class="text1">News</p>
+    </div>
+    <div class="column2">
+        <p class="text2">Blog</p>
+        <p class="text2">FAQ</p>
+        <p class="text2">Contacts</p>
+        <p class="text2">Privacy & Cookies</p>
+    </div>
+    <div class="img1">
+        <img src="./icons/fb_gray.png" alt="FaceBookGray.png">
+    </div>
+    <div class="img2">
+        <img src="./icons/insta_gray.png" alt="InstagramGray.png">
+    </div>
+    <div class="img3">
+        <img src="./icons/youtube_gray.png" alt="YouTubeGray.png">
+    </div> 
+    <hr class="line">
+    <p class="text3">Copyright Company 2018 - 2019</p>
+</div>
+</body>
+</html>
